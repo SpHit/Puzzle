@@ -89,6 +89,7 @@ public class Tauler implements MouseListener  {
     public final void partirImatge(final int horitzontal, final int vertical) {
         int j = 0;
         int i = 0;
+        int k = 0;
         midaPessaHoritzontal = (int) (imatgePuzzle.getWidth() / horitzontal);
         midaPessaVertical = (int) (imatgePuzzle.getHeight() / vertical);
 
